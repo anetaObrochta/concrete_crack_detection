@@ -26,7 +26,10 @@ dependencies:
   - zlib=1.2.13=h8cc25b3_1
   - pip:
       - absl-py==2.1.0
+      - aiofiles==23.2.1
       - albumentations==1.1.0
+      - altair==5.4.0
+      - annotated-types==0.7.0
       - anyio==4.4.0
       - argon2-cffi==23.1.0
       - argon2-cffi-bindings==21.2.0
@@ -38,10 +41,12 @@ dependencies:
       - babel==2.15.0
       - beautifulsoup4==4.12.3
       - bleach==6.1.0
+      - blinker==1.8.2
       - cachetools==5.4.0
       - certifi==2024.7.4
       - cffi==1.16.0
       - charset-normalizer==3.3.2
+      - click==8.1.7
       - colorama==0.4.6
       - comm==0.2.2
       - cycler==0.12.1
@@ -50,25 +55,35 @@ dependencies:
       - defusedxml==0.7.1
       - exceptiongroup==1.2.2
       - executing==2.0.1
+      - fastapi==0.112.0
       - fastjsonschema==2.20.0
+      - ffmpy==0.4.0
+      - filelock==3.15.4
+      - flask==3.0.3
       - flatbuffers==24.3.25
       - fonttools==4.53.1
       - fqdn==1.5.1
+      - fsspec==2024.6.1
       - gast==0.4.0
       - google-auth==2.32.0
       - google-auth-oauthlib==0.4.6
       - google-pasta==0.2.0
+      - gradio==4.19.2
+      - gradio-client==0.10.1
       - grpcio==1.65.4
       - h11==0.14.0
       - h5py==3.6.0
       - httpcore==1.0.5
       - httpx==0.27.0
+      - huggingface-hub==0.24.5
       - idna==3.7
       - imageio==2.34.2
+      - importlib-resources==6.4.0
       - ipykernel==6.29.5
       - ipython==8.26.0
       - ipywidgets==8.1.3
       - isoduration==20.11.0
+      - itsdangerous==2.2.0
       - jedi==0.19.1
       - jinja2==3.1.4
       - joblib==1.4.2
@@ -93,10 +108,13 @@ dependencies:
       - kiwisolver==1.4.5
       - libclang==18.1.1
       - markdown==3.6
+      - markdown-it-py==3.0.0
       - markupsafe==2.1.5
       - matplotlib==3.5.3
       - matplotlib-inline==0.1.7
+      - mdurl==0.1.2
       - mistune==3.0.2
+      - narwhals==1.3.0
       - nbclient==0.10.0
       - nbconvert==7.16.4
       - nbformat==5.10.4
@@ -109,6 +127,7 @@ dependencies:
       - opencv-python==4.5.5.64
       - opencv-python-headless==4.10.0.84
       - opt-einsum==3.3.0
+      - orjson==3.10.7
       - overrides==7.7.0
       - packaging==24.1
       - pandas==1.3.5
@@ -124,10 +143,14 @@ dependencies:
       - pyasn1==0.6.0
       - pyasn1-modules==0.4.0
       - pycparser==2.22
+      - pydantic==2.8.2
+      - pydantic-core==2.20.1
+      - pydub==0.25.1
       - pygments==2.18.0
       - pyparsing==3.1.2
       - python-dateutil==2.9.0.post0
       - python-json-logger==2.0.7
+      - python-multipart==0.0.9
       - pytz==2024.1
       - pywavelets==1.6.0
       - pywin32==306
@@ -142,16 +165,21 @@ dependencies:
       - requests-oauthlib==2.0.0
       - rfc3339-validator==0.1.4
       - rfc3986-validator==0.1.1
+      - rich==13.7.1
       - rpds-py==0.19.1
       - rsa==4.9
+      - ruff==0.5.7
       - scikit-image==0.19.3
       - scikit-learn==1.0.2
       - scipy==1.7.3
       - seaborn==0.11.2
+      - semantic-version==2.10.0
       - send2trash==1.8.3
+      - shellingham==1.5.4
       - sniffio==1.3.1
       - soupsieve==2.5
       - stack-data==0.6.3
+      - starlette==0.37.2
       - tensorboard==2.10.0
       - tensorboard-data-server==0.6.1
       - tensorboard-plugin-wit==1.8.1
@@ -164,17 +192,21 @@ dependencies:
       - tifffile==2024.7.24
       - tinycss2==1.3.0
       - tomli==2.0.1
+      - tomlkit==0.12.0
       - tornado==6.4.1
       - tqdm==4.64.1
       - traitlets==5.14.3
+      - typer==0.12.3
       - types-python-dateutil==2.9.0.20240316
       - typing-extensions==4.12.2
       - uri-template==1.3.0
       - urllib3==2.2.2
+      - uvicorn==0.30.5
       - wcwidth==0.2.13
       - webcolors==24.6.0
       - webencodings==0.5.1
       - websocket-client==1.8.0
+      - websockets==11.0.3
       - werkzeug==3.0.3
       - widgetsnbextension==4.0.11
       - wrapt==1.16.0

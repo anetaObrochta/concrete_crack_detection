@@ -67,35 +67,15 @@ venv.bak/
 # VSCode
 .vscode/
 
-# Data
+# Data - exclude raw and processed, but include sample
 data/raw/
 data/processed/
-data/sample
-*.csv
-*.dat
-*.efx
-*.gbr
-*.key
-*.pps
-*.ppt
-*.pptx
-*.sdf
-*.tax2010
-*.vcf
-*.xml
+# Uncomment the next line if you want to include sample data
+# !data/sample/
 
-# Models
-*.h5
+# Models - exclude all by default, but you can add exceptions if needed
 *.pkl
 *.model
-
-# Images
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.tif
-*.tiff
 
 # Logs
 *.log
@@ -108,3 +88,22 @@ data/sample
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# *.csv
+# *.dat
+# *.efx
+# *.gbr
+# *.key
+# *.pps
+# *.ppt
+# *.pptx
+# *.sdf
+# *.tax2010
+# *.vcf
+# *.xml
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.tif
+# *.tiff

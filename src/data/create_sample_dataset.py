@@ -2,6 +2,7 @@ import os
 import random
 import shutil
 
+# Creates a smaller sample set from raw dataset into 5000 positive images and 5000 negative images
 
 def count_files(directory):
     return len([f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))])
