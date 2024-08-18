@@ -17,18 +17,18 @@ https://huggingface.co/spaces/aobrochta/concrete_crack_detector
 
 This tool aims to assist in infrastructure maintenance by automating the initial screening of concrete surfaces for potential damage, improving efficiency and consistency in structural inspections.
 
-##Example use of this model:
-- ###Bridge Inspection
+## Example use of this model:
+###- Bridge Inspection
 Analyze images from routine bridge inspections to quickly identify areas needing closer examination.
 Integrate with drone-based inspection systems for automated crack detection in hard-to-reach areas.
 
 
-- ###Building Safety Assessment
+- ### Building Safety Assessment
 Assess the structural integrity of buildings, particularly in earthquake-prone regions.
 Conduct rapid post-earthquake damage assessments to prioritize response efforts.
 
 
-- ###Road and Highway Maintenance
+- ### Road and Highway Maintenance
 Monitor the condition of concrete highways, identifying early signs of wear and potential hazards.
 Assist in planning preventive maintenance schedules based on detected crack patterns.
 
