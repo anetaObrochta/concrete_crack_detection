@@ -4,7 +4,7 @@
 This project implements a machine learning model designed to detect cracks in concrete surfaces from images. Utilizing a Convolutional Neural Network (CNN) trained on a dataset of 10,000 concrete surface images, the model can accurately classify images as either containing cracks or not.
 
 Key features:
-- Binary classification: crack detected or no crack detected
+- Binary classification: crack detected or no crack detected - Achieved 96% Accuracy during training, validation, and testing
 - Input: 227x227 pixel RGB images of concrete surfaces
 - Output: Prediction with confidence score
 - Web-based interface for easy testing and visualization
